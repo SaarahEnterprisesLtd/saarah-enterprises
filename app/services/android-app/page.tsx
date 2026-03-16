@@ -1,6 +1,16 @@
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
+export const metadata = {
+  title: "Software Development Services",
+  description:
+    "RAndroid apps with smooth UI, strong performance, and secure backend integration.",
+    alternates: {
+      canonical: "https://www.saarahenterprises.com/services/android-app",
+    },
+    locale: "en_GB"  
+};
+
 const pricing = [
   {
     name: "Starter",

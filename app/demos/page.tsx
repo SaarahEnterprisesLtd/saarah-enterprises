@@ -2,6 +2,11 @@ export const metadata = {
     title: "Demos | Saarah Enterprises",
     description:
       "Explore demo projects by Saarah Enterprises, including restaurant websites, ecommerce stores, and inventory billing systems.",
+      alternates: {
+        canonical: "https://www.saarahenterprises.com/demos",
+      },
+
+      locale: "en_GB"
   };
   
   export default function DemosPage() {

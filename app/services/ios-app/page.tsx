@@ -1,6 +1,17 @@
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
+export const metadata = {
+  title: "Software Development Services",
+  description:
+    "High-quality iOS apps designed for a premium experience and strong performance.",
+    alternates: {
+      canonical: "https://www.saarahenterprises.com/services/ios-app",
+    },
+
+    locale: "en_GB"
+};
+
 const pricing = [
   {
     name: "Starter",

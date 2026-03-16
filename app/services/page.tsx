@@ -1,6 +1,16 @@
 import Link from "next/link";
 import ServicesGridClient from "@/components/ServicesGridClient";
 
+export const metadata = {
+  title: "Software Development Services",
+  description:
+    "Explore our website development, mobile app development, UI/UX design, ecommerce, SaaS, and custom software services.",
+    alternates: {
+      canonical: "https://www.saarahenterprises.com/services/website-development",
+    },
+    locale: "en_GB"
+};
+
 const services = [
   {
     title: "Website Development",

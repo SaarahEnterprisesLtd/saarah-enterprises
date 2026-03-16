@@ -1,6 +1,17 @@
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
+export const metadata = {
+  title: "Software Development Services",
+  description:
+    "Retail inventory management with billing, invoicing, and accounting overview.",
+
+    alternates: {
+      canonical: "https://www.saarahenterprises.com/services/inventory-billing",
+    }, 
+    locale: "en_GB" 
+};
+
 const pricing = [
   { name: "Starter", price: "£1,499", features: ["Stock items", "Basic billing", "Simple dashboard"] },
   { name: "Business", price: "£3,499", features: ["Invoices", "Customers", "Reports", "Role access"] },

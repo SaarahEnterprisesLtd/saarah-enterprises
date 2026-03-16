@@ -1,6 +1,17 @@
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
+export const metadata = {
+  title: "Software Development Services",
+  description:
+    "Clean and professional UI/UX for websites and apps that improves usability and conversions.",
+    alternates: {
+      canonical: "https://www.saarahenterprises.com/services/ui-ux-design",
+    },
+
+    locale: "en_GB"
+};
+
 const pricing = [
   { name: "Starter", price: "£299", features: ["1 screen / page", "Wireframe", "Basic UI kit"] },
   { name: "Business", price: "£799", features: ["Up to 5 screens", "Design system", "Prototypes"] },

@@ -1,5 +1,15 @@
 import ContactForm from "@/components/ContactForm";
 
+export const metadata = {
+  title: "Contact Us | Get a Free Quote",
+  description:
+    "Contact Saarah Enterprises to discuss your website, mobile app, or custom software project. Get a free consultation today.",
+    alternates: {
+      canonical: "https://www.saarahenterprises.com/contact",
+    },
+    locale: "en_GB"  
+};
+
 export default function ContactPage() {
   return (
     <main className="mx-auto max-w-xl px-6 py-12">

@@ -1,6 +1,17 @@
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
+export const metadata = {
+  title: "Software Development Services",
+  description:
+    "Online stores with product management, payments, and order workflows.",
+
+    alternates: {
+      canonical: "https://www.saarahenterprises.com/services/ecommerce-development",
+    }, 
+    locale: "en_GB"
+};
+
 const pricing = [
   { name: "Starter", price: "£999", features: ["Product listing", "Cart UI", "Basic checkout"] },
   { name: "Business", price: "£2,499", features: ["Payments", "Admin panel", "Order management"] },

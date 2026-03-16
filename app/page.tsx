@@ -2,6 +2,18 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 import HeroHeading from "@/components/HeroHeading";
 
+export const metadata = {
+  title: "Web & Mobile App Development Company",
+  description:
+    "Saarah Enterprises builds modern websites, Android and iOS mobile applications, SaaS platforms, ecommerce systems, and custom software for businesses.",
+
+    locale: "en_GB", 
+    
+    alternates: {
+      canonical: "https://www.saarahenterprises.com",
+    },
+};
+
 export default function HomePage() {
   return (
     <main>
